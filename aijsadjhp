@@ -1,0 +1,37 @@
+[33mcommit a258d6a5083b2c9f7bd1aad795b4332a32438b69[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: = <=>
+Date:   Sun Oct 6 21:51:25 2019 -0300
+
+    Revert "deteccao de faces realizada"
+    
+    This reverts commit 1dbb8efb2e2f11ce4b81ef8104b1dc9c9ea879f3.
+
+[33mcommit fceab30bd51e7a1d9a6029f87397fc76fbde937a[m
+Author: = <=>
+Date:   Sun Oct 6 21:49:49 2019 -0300
+
+    first commit
+
+[33mcommit 1dbb8efb2e2f11ce4b81ef8104b1dc9c9ea879f3[m
+Author: = <=>
+Date:   Sun Oct 6 21:48:39 2019 -0300
+
+    deteccao de faces realizada
+
+[33mcommit 3014875ed047110fd8cfaea5524b4c5d55bee75f[m
+Author: = <=>
+Date:   Sun Oct 6 12:18:29 2019 -0300
+
+    feita otimizacao na captura de imagem
+
+[33mcommit a609a226913337b32620882182dd98bfbd854e7b[m
+Author: = <=>
+Date:   Sun Oct 6 12:17:19 2019 -0300
+
+    Capturando imagem da webcam
+
+[33mcommit 63bb3be1b2282f4ca74547490b3ec22a9a8135d6[m
+Author: = <=>
+Date:   Sun Oct 6 11:14:19 2019 -0300
+
+    arquivo de dependencias configurado
