@@ -78,7 +78,7 @@ public class Captura {
                 IntPointer rotulo = new IntPointer(1);
                 DoublePointer erro = new DoublePointer(1);
 
-                //reconhecedor.predict(faceCapturada, rotulo, erro);
+                reconhecedor.predict(faceCapturada, rotulo, erro);
                 
                 identificador = rotulo.get(0);
 
