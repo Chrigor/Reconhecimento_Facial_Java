@@ -17,7 +17,6 @@ import org.bytedeco.javacpp.opencv_face.FaceRecognizer;
 import static org.bytedeco.javacpp.opencv_imgcodecs.CV_LOAD_IMAGE_GRAYSCALE;
 import static org.bytedeco.javacpp.opencv_imgcodecs.imread;
 import static org.bytedeco.javacpp.opencv_imgproc.resize;
-import static org.bytedeco.javacpp.opencv_imgproc.putText;
 
 /**
  *
@@ -25,7 +24,12 @@ import static org.bytedeco.javacpp.opencv_imgproc.putText;
  */
 public class Treinamento {
 
-    public static void main(String[] args) {
+    Treinamento() {
+        this.treinar();
+        System.out.println("TREINOU");
+    }
+
+    public void treinar() {
         File diretorio = new File("src\\main\\java\\fotos");
         FilenameFilter filtroImagem = new FilenameFilter() {
 
@@ -56,7 +60,5 @@ public class Treinamento {
         FaceRecognizer reconhecedor = opencv_face.LBPHFaceRecognizer.create();
         reconhecedor.train(fotos, rotulos);
         reconhecedor.save("src\\main\\java\\recursos\\classificadorLBPH.yml");
-        
     }
-
 }
